@@ -7,7 +7,7 @@ import {
   EvaluationBenchmark
 } from './types';
 
-const API_BASE = '/api';
+const API_BASE = 'https://forgehacks-2026.onrender.com/api';
 
 export async function fetchStudies(): Promise<StudySummary[]> {
   const res = await fetch(`${API_BASE}/studies`);
