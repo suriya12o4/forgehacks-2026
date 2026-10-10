@@ -1,0 +1,28 @@
+
+# Node.js dependencies and local tools
+node_modules/
+.tools/
+
+# Python cache files
+__pycache__/
+.pytest_cache/
+*.pyc
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local database and uploaded medical data
+data/*.db
+data/uploads/
+data/heatmaps/
+
+# Frontend build output
+frontend/dist/
+
+# Operating system files
+.DS_Store
+Thumbs.db
